@@ -1,0 +1,30 @@
+{
+  "info": {
+    "_postman_id": "314211ab-f564-4a36-b54b-94c6051e1117",
+    "name": "Gilmore Car Customer Service",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "752706"
+  },
+  "item": [
+    {
+      "name": "GET Result by ID",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://{{api-url}}/v1/customers/3/results/1",
+          "protocol": "https",
+          "host": ["{{api-url}}"],
+          "path": ["v1", "customers", "3", "results", "1"]
+        }
+      },
+      "response": []
+    }
+  ],
+  "variable": [
+    {
+      "key": "api-url",
+      "value": "your-rest-api-id.execute-api.your-region.amazonaws.com"
+    }
+  ]
+}

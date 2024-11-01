@@ -1,0 +1,30 @@
+{
+  "info": {
+    "_postman_id": "44cdd3ae-75ad-4dd0-9d29-57ebbef7fd3e",
+    "name": "Gilmore Car MOT Service",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "752706"
+  },
+  "item": [
+    {
+      "name": "GET Result by ID",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://{{api-url}}/api/v1/results/1",
+          "protocol": "https",
+          "host": ["{{api-url}}"],
+          "path": ["api", "v1", "results", "1"]
+        }
+      },
+      "response": []
+    }
+  ],
+  "variable": [
+    {
+      "key": "api-url",
+      "value": "your-rest-api-id.execute-api.your-region.amazonaws.com"
+    }
+  ]
+}
